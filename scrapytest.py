@@ -1,3 +1,4 @@
+import unittest
 import scrapy
 from scrapy.crawler import CrawlerProcess
 class NewSpider(scrapy.Spider):
@@ -24,3 +25,7 @@ class NewSpider(scrapy.Spider):
 process = CrawlerProcess()
 process.crawl(NewSpider)
 process.start()
+
+
+
+
